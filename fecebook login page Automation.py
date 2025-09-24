@@ -18,8 +18,8 @@ def open_facebook():
     #wait for the page to load
     time.sleep(2)
     #enter the email and password
-    driver.find_element(By.ID,"email").send_keys("aadityabhardwaj053@gmail.con") # type: ignore
-    driver.find_element(By.ID,"pass").send_keys("aadi0000") # type: ignore
+    driver.find_element(By.ID,"email").send_keys("enter your email ID ") # type: ignore
+    driver.find_element(By.ID,"pass").send_keys("your password") # type: ignore
 
     #click the login button
     driver.find_element(By.NAME,"login").click()  # type: ignore
